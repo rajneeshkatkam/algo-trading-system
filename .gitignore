@@ -1,0 +1,154 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace file
+go.work
+
+# Build outputs
+bin/
+dist/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+*.db
+*.sqlite
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.docker/
+
+# Kubernetes
+*.yaml.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# virtualenv
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Node.js (for dashboard)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Development artifacts
+.*.pid
+.market-data.pid
+.trading-engine.pid
+.ml-service.pid
+
+# Data files
+data/
+backups/
+models/
+*.csv
+*.json.bak
+
+# API Keys and Secrets (NEVER commit these)
+config/secrets.yaml
+config/api-keys.yaml
+*.key
+*.pem
+*.crt
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Coverage reports
+coverage.html
+coverage.out
+.coverage
+
+# Dependency directories
+vendor/
+
+# Go sum database
+go.sum
+
+# Configuration overrides
+config/local.yaml
+config/development.yaml
+config/production.yaml
+
+# Monitoring data
+prometheus_data/
+grafana_data/
+
+# ML models and training data
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+training_data/
+model_weights/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/

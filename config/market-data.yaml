@@ -1,0 +1,38 @@
+server:
+  http_port: 8080
+  grpc_port: 8081
+
+database:
+  host: localhost
+  port: 5432
+  name: algotrading
+  user: postgres
+  password: password123
+
+redis:
+  host: localhost
+  port: 6379
+
+kafka:
+  brokers:
+    - localhost:9092
+
+api_providers:
+  angel_one:
+    enabled: false
+    api_key: ""
+    api_secret: ""
+  
+  mock:
+    enabled: true
+    symbols:
+      - RELIANCE
+      - TCS
+      - HDFCBANK
+      - INFY
+      - HINDUNILVR
+
+logging:
+  level: info
+  format: json
+
