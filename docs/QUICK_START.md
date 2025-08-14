@@ -179,3 +179,11 @@ make reset-db
 ---
 
 🎉 **You're all set!** Your algo trading system is running and ready for development.
+
+
+
+Steps:
+1. To start with just building statistical metrics (e.g. P/E, alpha, etc. 10-15 metrics) around the stocks and predicting if it is good or bad stock.
+2. Then do sentiment analysis of the data by scraping the internet/news data (using pretrained LLM/Classfier online) - To further strengthen the stock selection algorithm (which was generated statistical metric model). - Expectation from this: It should give reasons for its sentiments (good/bad).
+3. Based on few iterations for few days and short comings on step-1 and 2, we will deep dive more into ML.
+4. Once step-1 and step-2, we can build an ML regression model which predicts the targets i.e. price values along with the predict days/date.
